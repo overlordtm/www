@@ -44,3 +44,10 @@ outputs:
     - HTML
     - RSS
     - JSON # is necessary
+
+markup:
+  goldmark:
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
