@@ -1,4 +1,4 @@
 baseURL = 'https://rtfm.si/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'RTFM'
 theme = 'PaperMod'
