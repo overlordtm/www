@@ -14,10 +14,15 @@ languages:
   sl:
     languageName: 'Slovenian'
     weight: 2
+    homeInfoParams:
+      Title: Pozdravljen, naključni obiskovalec 2147483647
+      Content: >
+        Work in progress
+
 
 params:
   homeInfoParams:
-    Title: Ohai
+    Title: Hello, accidental visitor 2147483647
     Content: >
       Work in progress
 
