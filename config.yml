@@ -1,0 +1,41 @@
+baseURL: 'https://rtfm.si/'
+languageCode: 'en-us'
+title: 'RTFM'
+theme: 'PaperMod'
+paginate: 10
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+languages:
+  en:
+    languageName: 'English'
+    weight: 1
+  sl:
+    languageName: 'Slovenian'
+    weight: 2
+
+params:
+  homeInfoParams:
+    Title: Ohai
+    Content: >
+      Work in progress
+
+  socialIcons:
+    - name: "twitter"
+      url: "https://twitter.com/overlord_tm"
+    - name: "mastodon"
+      url: "https://m.prt.si/@overlord_tm"
+    - name: "github"
+      url: "https://github.com/overlordtm"
+
+  editPost:
+    URL: "https://github.com/overlordtm/www/tree/main/content/"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
